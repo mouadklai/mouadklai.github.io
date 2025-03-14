@@ -38,3 +38,11 @@ footer {
 h1, h2, h3 {
   color: #333;
 }
+.profile-img {
+    width: 180px; /* or any size you want */
+    height: 180px; /* same as width for a perfect circle */
+    object-fit: cover; /* ensures the image covers the circle without distortion */
+    border-radius: 50%; /* this makes it a circle */
+    border: 4px solid #0077b5; /* optional: border in LinkedIn blue */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* optional: subtle shadow for effect */
+}
