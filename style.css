@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: #baa9a9;
+  background: #0077b5;
   color: #fff;
   padding: 1rem 0;
   text-align: center;
@@ -30,7 +30,7 @@ main {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #baa9a9;
+  background: #0077b5;
   color: white;
   margin-top: 20px;
 }
