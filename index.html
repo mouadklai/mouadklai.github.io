@@ -1,32 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <title>Mouad Klai - Personal Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mouad Klai - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #333;
+        }
+
+        .navbar {
+            background-color: #0077b5;
+            padding: 15px 0;
+            margin-bottom: 30px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.1em;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 4px solid #0077b5;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+            color: #222;
+        }
+
+        h2 {
+            margin: 10px 0;
+            font-size: 1.3em;
+            color: #666;
+        }
+
+        h3 {
+            margin-top: 40px;
+            font-size: 1.5em;
+            color: #444;
+        }
+
+        p {
+            font-size: 1.1em;
+            line-height: 1.8em;
+            text-align: justify;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            text-align: left;
+        }
+
+        .social-icons {
+            margin-top: 30px;
+        }
+
+        .social-icons a {
+            margin: 0 12px;
+            text-decoration: none;
+            color: #333;
+            font-size: 2em;
+        }
+
+        .social-icons a:hover {
+            color: #0077b5;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #999;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <h1>Mouad Klai</h1>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="research.html">Research</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="experience.html">Experience</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="hero">
-            <h1>Welcome to My Portfolio</h1>
-            <p>I'm <b>Mouad Klai</b>, a PhD Candidate in Applied Mathematics, passionate about computational modeling, simulation, and machine learning.</p>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="container">
+        <img src="photo.jpg" alt="Mouad Klai's Photo">
+
+        <h1>Mouad Klai</h1>
+        <h2>Ph.D. Candidate in Applied Mathematics and Computer Science</h2>
+
+        <h2 style="font-style: italic; color: #555; margin-top: 30px;">
+            "Mathematics is the language with which God has written the universe." — Galileo Galilei
+        </h2>
+
+        <h3>Mathematical & Computational Modeling | Modeling & Simulation of Complex Systems</h3>
+
+        <p>My journey has always been fueled by a deep curiosity about complex systems — how they function, evolve, and interact. From an early foundation in life and earth sciences to engineering, and eventually a specialization in applied mathematics and computer science, I’ve been fascinated by the challenge of translating complexity into models we can simulate, analyze, and understand.</p>
+
+        <p>Currently, I am pursuing a Ph.D. at the intersection of applied mathematics, computational modeling, and machine learning, focusing on the simulation of reactive transport in porous media. My research involves developing <strong>numerical methods and graph-based models</strong> to simulate diffusion and transformation processes, essential for understanding microbial decomposition in soils and other porous environments.</p>
+
+        <p>🚀 At the core of my research lies the fusion of <strong>physics-based simulations and AI</strong>, exploring:</p>
+
+        <ul>
+            <li>✔️ Numerical methods for PDEs in porous and complex media</li>
+            <li>✔️ Geometrical and graph-based models for diffusion and transformation in 3D structures</li>
+            <li>✔️ Machine learning to approximate transport properties and multi-physics processes</li>
+            <li>✔️ Mathematical modeling and analysis of complex biological and physical systems</li>
+            <li>✔️ Graph Neural Networks, Physics-Informed Neural Networks, Generative Models, and Time-Series Forecasting</li>
+        </ul>
+
+        <p>Whether you're a researcher, engineer, or simply passionate about mathematical and computational modeling, feel free to connect! I'm always open to collaboration and scientific exchange.</p>
+
+        <div class="social-icons">
+            <a href="https://github.com/username" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/username" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://orcid.org/0000-0000-0000-0000" target="_blank"><i class="fab fa-orcid"></i></a>
         </div>
-    </header>
+
+        <footer>
+            &copy; 2024 Mouad Klai. All rights reserved.
+        </footer>
+    </div>
 </body>
+
 </html>
